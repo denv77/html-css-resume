@@ -10,77 +10,129 @@
 </head>
 
 <body>
+<div class="container">
+    <div class="info">
 
-<table cellspacing="15">
-    <tr>
-        <td>
-            <img class="avatar" src="assets/avatar.png" alt="Мое фото">
-        </td>
-        <td>
+        <img class="avatar" src="assets/avatar.png" alt="Мое фото">
+        <div class="info-text">
             <h1>Имя Фамилия</h1>
-            <p><em>Кратко <strong>кто я</strong></em></p>
+            <p>Кратко <strong>кто я</strong></p>
             <p>Краткое описание</p>
-        </td>
-    </tr>
-</table>
 
-<hr>
+            <h4>Мои социальные сети</h4>
 
-<h2>Мои социальные сети</h2>
+            <a href="" target="_blank">WhatsApp</a>
+            |
+            <a href="" target="_blank">Telegram</a>
+        </div>
+    </div>
 
-<ul type="square">
-    <li><a href="" target="_blank">WhatsApp</a></li>
-    <li><a href="" target="_blank">Telegram</a></li>
-</ul>
+    <!--    <hr>-->
 
-<hr>
 
-<h2>Мои хобби</h2>
+    <!--    <div class="social">-->
+    <!--        <h2>Мои социальные сети</h2>-->
+    <!--        <ul type="square">-->
+    <!--            <li><a href="" target="_blank">WhatsApp</a></li>-->
+    <!--            <li><a href="" target="_blank">Telegram</a></li>-->
+    <!--        </ul>-->
+    <!--    </div>-->
 
-<ol>
-    <li>Хобби 1</li>
-    <li>Хобби 2</li>
-</ol>
+    <!--    <hr>-->
 
-<hr>
 
-<h2>Опыт работы</h2>
 
-<table>
-    <tr>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>Год</th>
-    </tr>
-    <tr>
-        <td>Компания 1</td>
-        <td>Должность 1</td>
-        <td>2021</td>
-    </tr>
-    <tr>
-        <td>Компания 2</td>
-        <td>Должность 2</td>
-        <td>2022</td>
-    </tr>
-</table>
+    <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
 
-<hr>
+        <ol class="list">
+            <li>Хобби 1</li>
+            <li>Хобби 2</li>
+        </ol>
+    </div>
 
-<h2>Обратная связь</h2>
+    <!--    <hr>-->
 
-<form action="">
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name" placeholder="Введите имя...">
-    <label for="email">Ваш email:</label>
-    <input type="email" id="email" placeholder="Введите email...">
-    <br>
-    <label for="text">Сообщение:</label>
-    <br>
-    <textarea id="text" cols="20" rows="2"></textarea>
-    <br>
-    <input type="submit" value="Отправить">
-</form>
+    <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <!--            <tr>-->
+            <!--                <th>Компания</th>-->
+            <!--                <th>Должность</th>-->
+            <!--                <th>Год</th>-->
+            <!--            </tr>-->
+            <tr>
+                <td>Компания 1</td>
+                <td>Должность 1</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Компания 2</td>
+                <td>Должность 2</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Компания 3</td>
+                <td>Должность 3</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Компания 4</td>
+                <td>Должность 4</td>
+                <td>2024</td>
+            </tr>
+        </table>
+    </div>
+    <!--    <hr>-->
 
+    <div class="card bg-red">
+        <h2>Третья карта</h2>
+        <ul class="link-list">
+            <li><a href="">Какая-то ссылка 1</a></li>
+            <li><a href="">Какая-то ссылка 2</a></li>
+        </ul>
+
+    </div>
+
+    <div class="contact">
+        <h2>Обратная связь</h2>
+        <form action="">
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя...">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email...">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="text">Ваше сообщение:</label>
+                <textarea id="text" cols="20" rows="2"></textarea>
+            </div>
+            <input class="btn" type="submit" value="Отправить">
+        </form>
+    </div>
+
+
+<!--    <div class="position">-->
+<!--        <div class="box">-->
+
+<!--        </div>-->
+<!--    </div>-->
+
+    <!--    <div class="box-model">-->
+    <!--        <div></div>-->
+    <!--        <div></div>-->
+    <!--        <div></div>-->
+    <!--        <div></div>-->
+    <!--    </div>-->
+
+
+    <div style="margin-bottom: 300px"></div>
+
+</div>
 </body>
 
 </html>
